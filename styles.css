@@ -11,9 +11,14 @@ body {
     border-color: #2c2c2c !important;
 }
 
-/* Заголовки та акценти в твоєму бордовому кольорі #9e1010 */
-h1, h2, .text-primary {
+/* Общий цвет для h1 (название сайта в шапке) и других акцентов */
+h1, .text-primary {
     color: #9e1010 !important;
+}
+
+/* Заголовки h2 по умолчанию делаем белыми (в частности "Радий бачити...") */
+h2 {
+    color: #ffffff !important;
 }
 
 /* Кнопки в твоєму кольорі #9e1010 */
@@ -23,7 +28,7 @@ h1, h2, .text-primary {
 }
 
 .btn-primary:hover {
-    background-color: #b51212 !important; /* Трохи світліший при наведенні */
+    background-color: #b51212 !important;
     border-color: #b51212 !important;
 }
 
