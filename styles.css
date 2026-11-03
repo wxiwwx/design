@@ -11,30 +11,31 @@ body {
     border-color: #2c2c2c !important;
 }
 
-/* Змінюємо синій колір заголовок та акцентів на бордовий */
-.text-primary {
-    color: #a52a2a !important; /* Насичений бордовий/вишневий */
+/* Заголовки та акценти в твоєму бордовому кольорі #9e1010 */
+h1, h2, .text-primary {
+    color: #9e1010 !important;
 }
 
-/* Колір кнопок та активних посилань робимо бордовим */
+/* Кнопки в твоєму кольорі #9e1010 */
 .btn-primary {
-    background-color: #8b0000 !important; /* Темно-бордовий */
-    border-color: #8b0000 !important;
+    background-color: #9e1010 !important;
+    border-color: #9e1010 !important;
 }
 
 .btn-primary:hover {
-    background-color: #a52a2a !important; /* Світліший бордовий при наведенні */
-    border-color: #a52a2a !important;
+    background-color: #b51212 !important; /* Трохи світліший при наведенні */
+    border-color: #b51212 !important;
 }
 
-/* Колір посилань в навігації */
+/* Колір посилань у навігації */
 .navbar .nav-link {
     color: #b0b0b0 !important;
 }
 
+/* Активна сторінка та наведення в кольорі #9e1010 */
 .navbar .nav-link:hover, 
 .navbar .nav-link.active {
-    color: #ff4d4d !important; /* Яскравий акцент для активної сторінки */
+    color: #9e1010 !important;
 }
 
 /* Текст-підказки */
